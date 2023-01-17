@@ -3,17 +3,13 @@
 % --
 % Set language.
 %---
-\newcommand{\lang}{english}
+\newcommand{\lang}{brazil}
 
 \usepackage[utf8]{inputenc}
 \usepackage[\lang]{babel}
 \usepackage{graphicx}
 
-\usepackage[backend=bibtex,
-                style=authoryear,
-                natbib=true, 
-                style=numeric-comp
-                ]{biblatex}
+\bibliographystyle{abbrv}
 
 \author{
     Alan Veloso
@@ -27,6 +23,8 @@
 \begin{document}
 
 \input{i18n/\lang/\lang}
+
+\nocite{*}
 
 \bibliography{references}
 
