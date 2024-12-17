@@ -1,31 +1,30 @@
-\documentclass{article}
+\documentclass[12pt]{article}
 
 % --
 % Set language.
 %---
-\newcommand{\lang}{brazil}
+\newcommand{\lang}{english}
 
+\usepackage{assets/styles/sbc/sbc-template}
+\usepackage{graphicx,url}
 \usepackage[utf8]{inputenc}
 \usepackage[\lang]{babel}
-\usepackage{graphicx}
 
-\bibliographystyle{abbrv}
-
-\author{
-    Alan Veloso
-}
 
 % ---
 % Graphics path
 % ---
-\graphicspath{{i18n/\lang/fig/}}
+\graphicspath{{figures/\lang/}}
+
+\author{Luciana P. Nedel\inst{1}, Rafael H. Bordini\inst{2}, Flávio Rech
+  Wagner\inst{1}, Jomi F. Hübner\inst{3} }
+
 
 \begin{document}
 
-\input{i18n/\lang/\lang}
+\input{{locales/\lang/\lang}}
 
-\nocite{*}
-
-\bibliography{references}
+\bibliographystyle{assets/styles/sbc/sbc-template}
+\bibliography{bib/references}
 
 \end{document}

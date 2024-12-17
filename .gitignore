@@ -1,6 +1,32 @@
-main.aux
-main.fdb_latexmk
-main.fls
-main.log
-main.pdf
-main.synctex.gz
+# Arquivos auxiliares do LaTeX
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+*.dvi
+*.pdf
+*.ps
+
+# Diretórios auxiliares
+*.fls
+*.fdb_latexmk
+*.latexmk
+*.gz
+
+# Arquivos de backup
+*~
+*.bak
+*.tmp
+
+# Outros arquivos que podem ser gerados
+*.idx
+*.ilg
+*.ind
+*.glo
+*.gls
+*.
